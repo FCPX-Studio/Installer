@@ -1,0 +1,24 @@
+{
+  "productId": "com.votresociete.depthstudio",
+  "displayName": "Depth Studio",
+  "majorVersion": 1,
+  "license": {
+    "apiBaseURL": "https://api.votresociete.com",
+    "publicKey": "k2lHMTD9NH69GbgC0swpwNqy6eL6FuFo5/+iByA0M+w=",
+    "appGroupIdentifier": "7PZAH8AHT4.com.fcpxstudio"
+  },
+  "hostApp": {
+    "source": "Payload/DepthStudio.app"
+  },
+  "motionTemplates": [
+    {
+      "source": "Payload/Motion Templates/Effects/Depth Studio",
+      "destination": "Effects.localized/Depth Studio"
+    },
+    {
+      "source": "Payload/Motion Templates/Transitions/Depth Transitions",
+      "destination": "Transitions.localized/Depth Transitions"
+    }
+  ],
+  "licenseAgreementResource": null
+}
